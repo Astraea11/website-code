@@ -8,23 +8,26 @@
     </div>
     
     <div class="header-bottom text-white">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
             <div class="container">
                 <ul class="navbar-nav d-flex flex-row justify-content-center">
                     <li>
-                        <a class="nav-link" href="admin.php">View Dashboard</a>
+                        <a class="nav-link" href="admin_page.php">Dashboard</a>
                     </li>
                     <li>
                         <a class="nav-link" href="register-view-users.php">View Users</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="">Change Pass</a>
+                        <a class="nav-link" href="add_mem.php">Add Memoir Data</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="">Search</a>
+                        <a class="nav-link" href="add_data.php">Add Character Data</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="">Log Out</a>
+                        <a class="nav-link" href="add_lc.php">Add LC Data</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="logout.php">Log Out</a>
                     </li>
                 </ul>
             </div>

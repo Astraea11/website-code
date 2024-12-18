@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['user_level']) or ($_SESSION['user_level'] != 1)){
+        header("Location: login.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
@@ -8,7 +15,7 @@
     
 </html>
 <body>
-    <div class="intro d-flex">
+    <div class="intro container">
        <h2 class="intro-text intro-text-p">List of Registered Users</h2>
        <p class="test">
        <?php 

@@ -46,6 +46,9 @@
 							$q = "INSERT INTO users (fname, lname, email, psword) VALUES ('$fn', '$ln', '$e', '$p')";		
 							$result = @mysqli_query ($dbcon, $q); // Run the query.
 							if ($result) { // If it ran OK.
+								session_start();
+								$_SESSION['user_level'] = '0';
+								$_SESSION['user_id'] = mysqli_insert_id($dbcon); 
 								header( "Location: register-thanks.php"); 
 								exit();	
 							} else { // If it did not run OK.
@@ -87,7 +90,7 @@
 						</p>
 
 						<p><label class="label" for="email">Email Address: &nbsp;</label>
-						<input class="input" type="email" id="email" name="email" size="30" maxlength="50" value="<?php if(isset ($_POST['email'])) echo  $_POST['email']?>">
+						<input class="input" type="text" id="email" name="email" size="30" maxlength="50" value="<?php if(isset ($_POST['email'])) echo  $_POST['email']?>">
 						</p>
 
 						<p><label class="label" for="psword1">Password: &nbsp;</label>

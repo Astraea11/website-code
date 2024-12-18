@@ -36,7 +36,7 @@
     display: block; 
 }
 .header-bottom a:hover {
-    background-color: #8D8D8D; 
+    background-color: #8D8D8D;
 }
 .img {
     width: 30px;
@@ -68,7 +68,7 @@
 .intro-bg{
     width: 100%;
     height: auto;
-    opacity: 40%;
+    opacity: 0.4;
     position: absolute;
     top: 0;
     z-index: 1;
@@ -82,6 +82,22 @@
     height: auto;
     z-index: 2;
 }
+.header-smol {
+    width: 320px !important;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+.intro-bg-half {
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
 .intro-text {
     color: #FFFFFF;
     z-index: 3;
@@ -91,12 +107,20 @@
 .intro-text-h {
     margin-top: 300px;
 }
-
 .intro-text-p {
     margin-top: 20px; 
 }
 .intro-content {
     margin-top: 270px;
+}
+.intro-content-1 {
+    margin-top: 50px;
+}
+.intro-header {
+    margin-top: 210px;
+}
+.introo {
+    margin-top: 190px;
 }
 .small-header {
     margin-bottom: 20px;
@@ -105,9 +129,17 @@
     width: 500px;
     height: auto;
 }
+.imagee {
+    width: 300px;
+    height: auto;
+}
 .image-small {
     width: 120px;
     height: auto;
+}
+.image-small:hover {
+    box-shadow: 0 0 15px 5px rgba(211, 184, 141, 0.75);
+    transition: all 0.3s ease;
 }
 .register {
     position: relative;
@@ -173,9 +205,9 @@ form {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
-.bg {
-    background-color: #5f5f5f;
-    opacity: 90%;
+.bgg {
+    border-color: #71797E;
+    border-width: 5px;
     z-index: 1;
     border-radius: 20px;
     padding-top: 20px;
@@ -207,3 +239,43 @@ form {
     width: 400px;
     margin: 5px
   }
+.modal-content {
+    background-color: #212529 !important; 
+    color: #d8dada;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-wrap: break-word;
+}
+hr {
+    background-color: white; 
+}
+.padd {
+    padding-left: 20px;
+}
+.card:hover {
+    box-shadow: 0 0 15px 5px rgba(211, 184, 141, 0.75);
+    transition: all 0.3s ease;
+}
+.image-tiny {
+    width: 50px;
+    height: auto;
+}
+.text-center h6 {
+    margin: 0;
+    padding: 0;
+    padding: 0.5rem
+}
+.image-medium {
+    width: 290px;
+    height: auto;
+    padding-top: 10px;
+}
+.button_image {
+    width: auto;
+    height: 250px;
+}
+.button_size{
+    width: 18rem;
+}
+.icon-tiny {
+    width: 40px;
+}

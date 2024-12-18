@@ -8,11 +8,11 @@
     </div>
     
     <div class="header-bottom text-white">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
             <div class="container">
                 <ul class="navbar-nav d-flex flex-row justify-content-center">
                     <li class="nav-item" >
-                        <a class="nav-link" href="index_landing.php" >Home</a>
+                        <a class="nav-link" href="index.php" >Home</a>
                     <li class="nav-item" >
                         <a class="nav-link" href="register-page.php" >Register</a>
                     </li>

@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['user_level']) or ($_SESSION['user_level'] != 1)){
+        header("Location: login.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
@@ -7,7 +14,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <?php include('templates/header_admin.php');?>
     
-</html>
 <body>
     <div class="intro d-lg-flex justify-content-sm-center">
     <img src="https://i.redd.it/zf4z6utfezua1.png"  class="intro-bg">

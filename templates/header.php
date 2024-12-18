@@ -12,16 +12,10 @@
             <div class="container">
                 <ul class="navbar-nav d-flex flex-row justify-content-center">
                     <li class="nav-item" >
-                        <a class="nav-link" href="index.php" >Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="missions.php" >Missions</a>
+                        <a class="nav-link" href="members_page.php" >Home</a>
                     </li>
                     <li class="nav-item" >
                         <a class="nav-link" href="memoir.php" >Conventional Memoir</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="universe.php" >Simulated Universe</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="chr_story.php" >Character Story</a>
@@ -30,10 +24,7 @@
                         <a class="nav-link" href="l_cones.php" >Light Cones</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="">Change Pass</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="">Log Out</a>
+                        <a class="nav-link" href="logout.php">Log Out</a>
                     </li>
                 </ul>
             </div>
